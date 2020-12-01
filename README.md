@@ -1,5 +1,10 @@
 # REACT PROJECTS SHOWCASE
 
+## 6) Tabs Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/tabs-app)  
+[Live](https://determined-montalcini-2e09cb.netlify.app/)
+
 ## 5) Caffee Menu Project
 
 [Source code](https://github.com/bnn1/react-showcase-projects/tree/master/menu-app)  
