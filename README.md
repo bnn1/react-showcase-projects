@@ -1,5 +1,11 @@
 # REACT PROJECTS SHOWCASE
 
+## 8) Placeholder Text Generator Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/placeholder-text-generator-app)  
+[Live](https://amazing-wozniak-c7f657.netlify.app/)
+
+
 ## 7) Slider Project
 
 [Source code](https://github.com/bnn1/react-showcase-projects/tree/master/slider-app)  
