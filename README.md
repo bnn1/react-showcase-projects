@@ -1,5 +1,10 @@
 # REACT PROJECTS SHOWCASE
 
+## 7) Slider Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/slider-app)  
+[Live](https://condescending-jang-f6265d.netlify.app/)
+
 ## 6) Tabs Project
 
 [Source code](https://github.com/bnn1/react-showcase-projects/tree/master/tabs-app)  
