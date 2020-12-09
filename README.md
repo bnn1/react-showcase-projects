@@ -1,5 +1,10 @@
 # REACT PROJECTS SHOWCASE
 
+## 9) Color Generator Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/color-generator-app)  
+[Live](https://hardcore-goodall-60811d.netlify.app/)
+
 ## 8) Placeholder Text Generator Project
 
 [Source code](https://github.com/bnn1/react-showcase-projects/tree/master/placeholder-text-generator-app)  
