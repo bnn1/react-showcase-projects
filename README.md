@@ -1,5 +1,10 @@
 # REACT PROJECTS SHOWCASE
 
+## 10) To Buy List Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/to-buy-list-app)  
+[Live](https://agitated-feynman-ba3df8.netlify.app/)
+
 ## 9) Color Generator Project
 
 [Source code](https://github.com/bnn1/react-showcase-projects/tree/master/color-generator-app)  
