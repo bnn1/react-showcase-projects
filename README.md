@@ -1,5 +1,10 @@
 # REACT PROJECTS SHOWCASE
 
+## 11) Navbar Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/navbar-app)  
+[Live](https://vibrant-newton-f48400.netlify.app/)
+
 ## 10) To Buy List Project
 
 [Source code](https://github.com/bnn1/react-showcase-projects/tree/master/to-buy-list-app)  
