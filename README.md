@@ -1,5 +1,15 @@
 # REACT PROJECTS SHOWCASE
 
+## 13) Stripe Clone Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/stripe-app)  
+[Live](https://zen-lewin-732603.netlify.app/)
+
+## 12) Sidebar / Modal Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/sidebar-modal-app)  
+[Live](https://zealous-hypatia-655953.netlify.app/)
+
 ## 11) Navbar Project
 
 [Source code](https://github.com/bnn1/react-showcase-projects/tree/master/navbar-app)  
