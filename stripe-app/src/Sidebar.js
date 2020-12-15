@@ -4,29 +4,29 @@ import sublinks from './data';
 import { useGlobalContext } from './context';
 
 const Sidebar = () => {
-  const { isSidebarOpen, closeSidebar } = useGlobalContext();
+  const { isSidebarOpen, toggleSidebar } = useGlobalContext();
 
   return (
-    <aside
+    <div
       className={`${
         isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'
       }`}
     >
-      <div className='sidebar'>
-        <button className='close-btn' onClick={closeSidebar}>
-          <FaTimes />
+      <aside className='sidebar'>
+        <button className='close-btn'>
+          <FaTimes onClick={toggleSidebar} />
         </button>
         <div className='sidebar-links'>
-          {sublinks.map((sublink, index) => {
-            const { page, links } = sublink;
+          {sublinks.map((link, idx) => {
+            const { page, links } = link;
             return (
-              <article key={index}>
+              <article key={idx}>
                 <h4>{page}</h4>
                 <div className='sidebar-sublinks'>
-                  {links.map((link, idx) => {
-                    const { url, icon, label } = link;
+                  {links.map((sublink, idx) => {
+                    const { label, icon, url } = sublink;
                     return (
-                      <a href={url} key={idx}>
+                      <a key={idx} href={url}>
                         {icon}
                         {label}
                       </a>
@@ -37,9 +37,8 @@ const Sidebar = () => {
             );
           })}
         </div>
-      </div>
-    </aside>
+      </aside>
+    </div>
   );
 };
-
 export default Sidebar;

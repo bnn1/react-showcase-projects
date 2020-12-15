@@ -3,38 +3,36 @@ import sublinks from './data';
 
 const AppContext = React.createContext();
 
-const AppProvider = ({ children }) => {
+export const AppProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
-  const [location, setLocation] = useState({});
   const [page, setPage] = useState({ page: '', links: [] });
-  const openSidebar = () => {
-    setIsSidebarOpen(true);
-  };
-  const closeSidebar = () => {
-    setIsSidebarOpen(false);
-  };
+  const [position, setPosition] = useState({});
   const openSubmenu = (text, coordinates) => {
-    const page = sublinks.find((sublink) => sublink.page === text);
-    setPage(page);
-    setLocation(coordinates);
+    const submenuToDisplay = sublinks.find((link) => link.page === text);
+    setPage(submenuToDisplay);
     setIsSubmenuOpen(true);
+    setPosition(coordinates);
   };
   const closeSubmenu = () => {
     setIsSubmenuOpen(false);
+    setPage({ page: '', links: [] });
+    setPosition({});
   };
-
   return (
     <AppContext.Provider
       value={{
-        openSidebar,
-        closeSidebar,
+        isSidebarOpen,
+        toggleSidebar,
+        page,
+        isSubmenuOpen,
         openSubmenu,
         closeSubmenu,
-        isSubmenuOpen,
-        isSidebarOpen,
-        location,
-        page,
+        position,
       }}
     >
       {children}
@@ -42,8 +40,4 @@ const AppProvider = ({ children }) => {
   );
 };
 
-const useGlobalContext = () => {
-  return useContext(AppContext);
-};
-
-export { AppProvider, useGlobalContext };
+export const useGlobalContext = () => useContext(AppContext);
