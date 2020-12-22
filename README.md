@@ -1,5 +1,10 @@
 # REACT PROJECTS SHOWCASE
 
+## 14) Cart Project
+
+[Source code](https://github.com/bnn1/react-showcase-projects/tree/master/cart-app)  
+[Live](https://trusting-brown-12263c.netlify.app/)
+
 ## 13) Stripe Clone Project
 
 [Source code](https://github.com/bnn1/react-showcase-projects/tree/master/stripe-app)  
